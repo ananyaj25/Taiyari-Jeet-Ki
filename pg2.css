@@ -1,0 +1,37 @@
+*{
+    margin: 0 px; padding: 0%;
+}
+
+.train{
+    margin-top: 200px;
+    position: relative;
+}
+
+.shin,.raj,.geet,.hanu,.text{
+    position: absolute;
+    }
+   
+
+
+.shin{
+    top: 160px;
+    left: 10px;
+}
+.geet{
+    top: 60px;
+    right: 40px;
+}
+.hanu{
+    top: 80px;
+   right: 60px;
+}
+.raj{
+    top: 60px;
+    left: 0px;
+    right: 0;
+}
+
+
+  
+ 
+  
