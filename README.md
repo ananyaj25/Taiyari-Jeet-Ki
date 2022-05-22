@@ -1,6 +1,5 @@
 # Taiyari Jeet Ki
 
-
 Make a project folder in any drive .
 Move into project folder via cmd prompt
 git clone https://github.com/ananyaj25/Nostalgia
