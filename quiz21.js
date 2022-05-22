@@ -1,55 +1,52 @@
 const quizData = [
+    
     {
-        question: "What was the name of spongebob's squirrel friend?",
-        a: "Patrick",
-        b: "Squidward",
-        c: "Mrs Puff",
-        d: "Sandy",
+        question: "Meri shaktiyo ka glt istemal kiya gya hai maa!",
+        a: "Rohit",
+        b: "Rohan",
+        c: "Raj",
+        d: "Krishna",
+        correct: "a",
+    },
+    
+    {
+        question: "Tension lene ka nahi sirf dene ka is a diague of which movie        ",
+        a: "3 idiots",
+        b: "Munna Bhai MBBS",
+        c: "Hera pheri",
+        d: "Rang De Basanti",
+        correct: "b",
+    },
+    
+    {
+        question: "Which character from MOHABATTEIN said the famous parampara, pratishtha,anushasan dialogue?",
+        a: "Naresh Malhotra",
+        b: "Narayan Malhotra",
+        c: "Naresh Shankar",
+        d: "Narayan Shankar",
         correct: "d",
     },
+
     {
-        question: "What was the real name of Hero from HERO:bhakti hi shakti hai",
-        a: "Rohit",
-        b: "Joy",
-        c: "Chota pappi",
-        d: "Avi",
+        question: "Tell the one word that fills all three blanks —-------pe —--- milti rahi hai lekin insaaf nahi milta, my Lord. Milte hai to sirf —---- ",
+        a: "Nirasha",
+        b: "Tsreekh",
+        c: "Gulami",
+        d: "Khushi",
         correct: "b",
     },
+    
+
     {
-        question: "what's the name of Shinchan's favorite didi?",
-        a: "Mitsi",
-        b: "Yoshinaga",
-        c: "Naneko",
-        d: "Ichan",
+        question: " 'Mere paas maa hai' is an iconic dialgue of which movie ?",
+        a: "Sholay",
+        b: "Zanzeer",
+        c: "Deewar",
+        d: "Agnipath ",
         correct: "c",
     },
 
-    {
-        question: "what's the name of Shinchan's favorite didi?",
-        a: "Mitsi",
-        b: "Yoshinaga",
-        c: "Naneko",
-        d: "Ichan",
-        correct: "c",
-    },
-
-    {
-        question: "Name the green dragon of the two conjoined twin dragons from dragon tales",
-        a: "ord",
-        b: "Zak",
-        c: "Wheezie",
-        d: "Max",
-        correct: "b",
-    },
-
-    {
-        question: "The one Doremon always tried to date",
-        a: "Dorami",
-        b: "Michan",
-        c: "Shizuka",
-        d: "none of the above",
-        correct: "b",
-    },
+  
 
 
 ];

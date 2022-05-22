@@ -1,55 +1,54 @@
 const quizData = [
+    
     {
-        question: "What was the name of spongebob's squirrel friend?",
-        a: "Patrick",
-        b: "Squidward",
-        c: "Mrs Puff",
-        d: "Sandy",
+        question: "What was Sanju's pencil's name in Shaka Laka Boom Boom? ",
+        a: "Jadui Pencil",
+        b: "Boom boom pencil",
+        c: "Magic Pencil",
+        d: "Shaka Laka pencil",
+        correct: "c",
+    },
+
+    {
+        question: " In sarabhai vs sarabhai, Sahil's wife actual name was?",
+        a: "Sonia",
+        b: "Manisha",
+        c: "Maya",
+        d: "Rita",
+        correct: "b",
+    },
+
+    {
+        question: "Who was Kasauti zindagi Kay female lead?",
+        a: "Shweta Tiwari",
+        b: "Urvashi Dholakia",
+        c: "Tina Parekh",
+        d: "Shubhangi Atre",
+        correct: "a",
+    },   
+
+    {
+        question: "Who is the famous Door breaker in CID",
+        a: "Abhijeet",
+        b: "Salunkhe" ,
+        c: "Daya",
+        d: "Freddy",
+        correct: "c",
+    },
+    
+    
+    
+
+    {
+        question: "Female lead in Sonpari? ?",
+        a: "Sanyia",
+        b: "Fatima",
+        c: "Tweety",
+        d: "Fruity ",
         correct: "d",
     },
-    {
-        question: "What was the real name of Hero from HERO:bhakti hi shakti hai",
-        a: "Rohit",
-        b: "Joy",
-        c: "Chota pappi",
-        d: "Avi",
-        correct: "b",
-    },
-    {
-        question: "what's the name of Shinchan's favorite didi?",
-        a: "Mitsi",
-        b: "Yoshinaga",
-        c: "Naneko",
-        d: "Ichan",
-        correct: "c",
-    },
 
-    {
-        question: "what's the name of Shinchan's favorite didi?",
-        a: "Mitsi",
-        b: "Yoshinaga",
-        c: "Naneko",
-        d: "Ichan",
-        correct: "c",
-    },
-
-    {
-        question: "Name the green dragon of the two conjoined twin dragons from dragon tales",
-        a: "ord",
-        b: "Zak",
-        c: "Wheezie",
-        d: "Max",
-        correct: "b",
-    },
-
-    {
-        question: "The one Doremon always tried to date",
-        a: "Dorami",
-        b: "Michan",
-        c: "Shizuka",
-        d: "none of the above",
-        correct: "b",
-    },
+  
 
 
 ];

@@ -1,55 +1,48 @@
 const quizData = [
+    
     {
-        question: "What was the name of spongebob's squirrel friend?",
-        a: "Patrick",
-        b: "Squidward",
-        c: "Mrs Puff",
-        d: "Sandy",
+        question: "In which year Ramayan was broadcasted? ",
+        a: "1984",
+        b: "1985",
+        c: "1986",
+        d: "1987",
         correct: "d",
     },
     {
-        question: "What was the real name of Hero from HERO:bhakti hi shakti hai",
-        a: "Rohit",
-        b: "Joy",
-        c: "Chota pappi",
-        d: "Avi",
+        question: " In the show Taarak Mehta ka ooltah chashma, Daya's hometown is?        ",
+        a: "Allahabad",
+        b: "Ahemdabad",
+        c: "Kachch",
+        d: "Jamnagar",
         correct: "b",
     },
     {
-        question: "what's the name of Shinchan's favorite didi?",
-        a: "Mitsi",
-        b: "Yoshinaga",
-        c: "Naneko",
-        d: "Ichan",
+        question: " Who was Boogie Woogie's rock and roll specialist judge?",
+        a: "Ravi Behl",
+        b: "Naved",
+        c: "Javed Jaffrey",
+        d: "Remo D'Souza",
         correct: "c",
     },
 
     {
-        question: "what's the name of Shinchan's favorite didi?",
-        a: "Mitsi",
-        b: "Yoshinaga",
-        c: "Naneko",
-        d: "Ichan",
-        correct: "c",
+        question: "Takeshi castle was from which country?",
+        a: "Japan",
+        b: "Korea",
+        c: "China",
+        d: "Thailand",
+        correct: "a",
     },
 
     {
-        question: "Name the green dragon of the two conjoined twin dragons from dragon tales",
-        a: "ord",
-        b: "Zak",
-        c: "Wheezie",
-        d: "Max",
+        question: "What was Draupadi's brother's name?",
+        a: "Madhav",
+        b: "Drishtyadymna",
+        c: "2000",
+        d: "2003",
         correct: "b",
     },
-
-    {
-        question: "The one Doremon always tried to date",
-        a: "Dorami",
-        b: "Michan",
-        c: "Shizuka",
-        d: "none of the above",
-        correct: "b",
-    },
+  
 
 
 ];

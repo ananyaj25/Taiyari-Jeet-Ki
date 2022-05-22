@@ -1,55 +1,52 @@
 const quizData = [
+    
     {
-        question: "What was the name of spongebob's squirrel friend?",
-        a: "Patrick",
-        b: "Squidward",
-        c: "Mrs Puff",
-        d: "Sandy",
+        question: "Rajesh Khanna fan? Then correctly name the disease he was suffering from in movie Anand ",
+        a: "Liver Cirrhosis",
+        b: "meningitis",
+        c: "lymphosarcoma",
+        d: "Poliomyelitis",
+        correct: "c",
+    },
+    
+    {
+        question: "which character introduced the spin ball in movie Lagaan",
+        a: "Bhuvan",
+        b: "Kachra",
+        c: "Lakha",
+        d: "Bhura",
+        correct: "b",
+    },
+    
+    {
+        question: "Dont forget ki har saal ICE mein .... lakh applications aate hai,unemin se sirf ... sau select hote hai. 3 Idiots",
+        a: "3,2",
+        b: "3, 2.5(dhai)",
+        c: "4,2",
+        d: "4,2.5",
+        correct: "c",
+    },
+
+    {
+        question: "Dosti ka ek usool hai, madam, no sorry, no thank you.",
+        a: "Mujhse dosti karogi",
+        b: "Kuch kuch hota hai",
+        c: "Dil toh pagal hai",
+        d: "BMaine pyaar kiya",
         correct: "d",
     },
-    {
-        question: "What was the real name of Hero from HERO:bhakti hi shakti hai",
-        a: "Rohit",
-        b: "Joy",
-        c: "Chota pappi",
-        d: "Avi",
-        correct: "b",
-    },
-    {
-        question: "what's the name of Shinchan's favorite didi?",
-        a: "Mitsi",
-        b: "Yoshinaga",
-        c: "Naneko",
-        d: "Ichan",
-        correct: "c",
-    },
+    
 
     {
-        question: "what's the name of Shinchan's favorite didi?",
-        a: "Mitsi",
-        b: "Yoshinaga",
-        c: "Naneko",
-        d: "Ichan",
-        correct: "c",
+        question: "Where was Rohit from Koi Mil Gaya was raised? ",
+        a: "Kasauli",
+        b: "Kasol",
+        c: "Kangra",
+        d: "Khajjiar",
+        correct: "a",
     },
 
-    {
-        question: "Name the green dragon of the two conjoined twin dragons from dragon tales",
-        a: "ord",
-        b: "Zak",
-        c: "Wheezie",
-        d: "Max",
-        correct: "b",
-    },
-
-    {
-        question: "The one Doremon always tried to date",
-        a: "Dorami",
-        b: "Michan",
-        c: "Shizuka",
-        d: "none of the above",
-        correct: "b",
-    },
+  
 
 
 ];

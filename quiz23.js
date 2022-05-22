@@ -1,55 +1,48 @@
 const quizData = [
+    
     {
-        question: "What was the name of spongebob's squirrel friend?",
-        a: "Patrick",
-        b: "Squidward",
-        c: "Mrs Puff",
-        d: "Sandy",
+        question: "How many time Raj said Palat in DDLJ",
+        a: "5",
+        b: "2",
+        c: "1",
+        d: "3",
         correct: "d",
     },
     {
-        question: "What was the real name of Hero from HERO:bhakti hi shakti hai",
-        a: "Rohit",
-        b: "Joy",
-        c: "Chota pappi",
-        d: "Avi",
+        question: "Chandni Chopra(Ram's crush) taught which subject in movie Mai hoon na",
+        a: "Physics",
+        b: "Chemistry",
+        c: "Maths",
+        d: "Economy",
         correct: "b",
     },
     {
-        question: "what's the name of Shinchan's favorite didi?",
-        a: "Mitsi",
-        b: "Yoshinaga",
-        c: "Naneko",
-        d: "Ichan",
+        question: "what's Salman's most popular screen name?",
+        a: "Raja",
+        b: "Sameer",
+        c: "Prem",
+        d: "Radhe",
         correct: "c",
     },
 
     {
-        question: "what's the name of Shinchan's favorite didi?",
-        a: "Mitsi",
-        b: "Yoshinaga",
-        c: "Naneko",
-        d: "Ichan",
+        question: "What were the three conditions to become a true blue Ranjhore Ka Rathore?",
+        a: "Fight a war, fight for love, and beat up a man",
+        b: "Grow a mustache, steal a beautiful girl, and ride a horse",
+        c: "Wield a sword, ride a horse, and enter parties on horses",
+        d: "Ride a horse, beat someone up, and go to jail.",
+        correct: "d",
+    },
+
+    {
+        question: "Police of how many countries are waiting for DON!?",
+        a: "21",
+        b: "12",
+        c: "11",
+        d: "7",
         correct: "c",
     },
-
-    {
-        question: "Name the green dragon of the two conjoined twin dragons from dragon tales",
-        a: "ord",
-        b: "Zak",
-        c: "Wheezie",
-        d: "Max",
-        correct: "b",
-    },
-
-    {
-        question: "The one Doremon always tried to date",
-        a: "Dorami",
-        b: "Michan",
-        c: "Shizuka",
-        d: "none of the above",
-        correct: "b",
-    },
+  
 
 
 ];

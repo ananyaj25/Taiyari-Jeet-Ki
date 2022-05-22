@@ -1,55 +1,48 @@
 const quizData = [
+    
     {
-        question: "What was the name of spongebob's squirrel friend?",
-        a: "Patrick",
-        b: "Squidward",
-        c: "Mrs Puff",
-        d: "Sandy",
+        question: "Kaun banega crorepati was first aired in the year?        ",
+        a: "2001",
+        b: "2002",
+        c: "2000",
+        d: "2003",
+        correct: "c",
+    },
+    {
+        question: " What is Shararat show's full name? Shararat -",
+        a: "Thoda jaadu, thodi gadbad",
+        b: "Thoda jaadu, thodi Nazaakat",
+        c: "Thoda jaadu, thodi Harkat",
+        d: "Thoda jaadu, thodi Rehmat",
+        correct: "b",
+    },
+    {
+        question: " What was Shaktiman's real name in show? ",
+        a: "Tamraj Kilvish",
+        b: "Tony Bhia",
+        c: "Gangadhar",
+        d: "Durandhar",
+        correct: "c",
+    },
+
+    {
+        question: " Aahat was telecast on which channel?",
+        a: "Colors",
+        b: "Sony",
+        c: "Star Plus",
+        d: "Zee Tv.",
         correct: "d",
     },
+
     {
-        question: "What was the real name of Hero from HERO:bhakti hi shakti hai",
-        a: "Rohit",
-        b: "Joy",
-        c: "Chota pappi",
-        d: "Avi",
-        correct: "b",
-    },
-    {
-        question: "what's the name of Shinchan's favorite didi?",
-        a: "Mitsi",
-        b: "Yoshinaga",
-        c: "Naneko",
-        d: "Ichan",
+        question: "what  MAD's artist name?",
+        a: "Neil",
+        b: "Mandy",
+        c: "Rob",
+        d: "Lloyd",
         correct: "c",
     },
-
-    {
-        question: "what's the name of Shinchan's favorite didi?",
-        a: "Mitsi",
-        b: "Yoshinaga",
-        c: "Naneko",
-        d: "Ichan",
-        correct: "c",
-    },
-
-    {
-        question: "Name the green dragon of the two conjoined twin dragons from dragon tales",
-        a: "ord",
-        b: "Zak",
-        c: "Wheezie",
-        d: "Max",
-        correct: "b",
-    },
-
-    {
-        question: "The one Doremon always tried to date",
-        a: "Dorami",
-        b: "Michan",
-        c: "Shizuka",
-        d: "none of the above",
-        correct: "b",
-    },
+  
 
 
 ];
