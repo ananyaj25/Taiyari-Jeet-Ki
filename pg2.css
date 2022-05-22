@@ -3,7 +3,7 @@
 }
 
 .train{
-    margin-top: 200px;
+    margin-top: 170px;
     position: relative;
 }
 
@@ -14,21 +14,22 @@
 
 
 .shin{
-    top: 160px;
-    left: 10px;
+    bottom: 90px;
+    left: 40px;
 }
 .geet{
-    top: 60px;
-    right: 40px;
+    top: 250px;
+    bottom: 0px;
+    right: 0;
 }
 .hanu{
-    top: 80px;
-   right: 60px;
+    bottom: 100px;
+    right: 30px;
 }
 .raj{
-    top: 60px;
-    left: 0px;
-    right: 0;
+    top: 260px;
+    bottom: 0px;
+    left: 80;
 }
 
 
