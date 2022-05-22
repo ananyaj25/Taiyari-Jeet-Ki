@@ -1,8 +1,9 @@
-h1,h3{
+h1{
     border-radius: 10px;
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
+    height:
 }
 h3{
     background-color: rgba(255, 255, 0, 0.878);
