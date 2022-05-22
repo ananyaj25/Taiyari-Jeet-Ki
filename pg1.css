@@ -1,0 +1,96 @@
+
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+         header{
+        background-color: chocolate;
+         }
+
+         ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ul {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #ff8c4f;
+  --color-2: #4eb6e2;
+  --color-3: #fb7977;
+}
+
+.title-word-2 {
+  --color-1: #f1c159;
+  --color-2: #2fd859;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #4a9990;
+  --color-2: #ff5f5c;
+  --color-3: #3cc8b8;
+}
+
+.title-word-4 {
+  --color-1: #5eb5db;
+  --color-2: #ff7f3a;
+  --color-3: #ff53da;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container {
+  position: absolute;
+  display: grid;
+  right: 400px; 
+  bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.429);
+  border-radius: 15px;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 80px;
+  text-transform: uppercase;
+  text-align: center;
+}
