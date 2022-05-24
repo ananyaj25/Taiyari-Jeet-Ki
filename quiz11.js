@@ -24,15 +24,7 @@ const quizData = [
         correct: "c",
     },
 
-    {
-        question: "what's the name of Shinchan's favorite didi?",
-        a: "Mitsi",
-        b: "Yoshinaga",
-        c: "Naneko",
-        d: "Ichan",
-        correct: "c",
-    },
-
+   
     {
         question: "Name the green dragon of the two conjoined twin dragons from dragon tales",
         a: "ord",
