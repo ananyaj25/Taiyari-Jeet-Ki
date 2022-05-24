@@ -175,6 +175,9 @@ h2{
 .quizzes{
   background-color:rgb(252, 255, 167) ;
 }
+.quizzes h2{
+  background-color: rgb(252, 120, 190);
+}
 
 
 .quiz{

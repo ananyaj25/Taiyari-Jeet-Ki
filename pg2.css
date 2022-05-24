@@ -30,9 +30,9 @@
 }
 .raj{
     position: absolute;
-    top: 4900px;
+    top: 5100px;
     bottom: 0px;
-    left: 80;
+    left: 480px;
 }
 .scene {
     background-image: url('bg.jpg');
