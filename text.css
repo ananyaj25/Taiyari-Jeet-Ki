@@ -1,12 +1,8 @@
-*{
-    margin: 0;
-    padding: 10px;
-    box-sizing: border-box;
-    background-color: antiquewhite;
-}
-body{
+
+.cartoonText{
     font-family: 'Roboto', sans-serif;
     padding: 1em;
+    background-color: antiquewhite;
 }
 .intro-text{
     text-align: center;
