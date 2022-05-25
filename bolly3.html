@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@400;547&display=swap" rel="stylesheet">
     <title>Bollywood 3</title>
+    <link rel="stylesheet" href="bolly.css">
     <style> 
   p{
       padding: 100px;
@@ -26,7 +27,32 @@
     </style>
 </head>
 <body>
-    <div>
+    <header>
+        <img src="heading.png" alt="website name" width="100%" >
+    </header>
+
+    <div class="topnav" id="myTopnav">
+        <a href="/index.html" class="active">Home</a>
+        
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">Explore
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="/pg1.html">ToonsWorld</a>
+            <a href="/cassett.html">SangeetSagar</a>
+            <a href="/bolly3.html">FilmyDuniya</a>
+            <a href="#">DoorDarshan</a>
+          </div>
+        </div> 
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+
+
+
+    <div class="box">
     <marquee direction="up" width="730" height="450"  style="border:solid" behavior="scroll" loop="" >
     <p>"Babumushoi, zindagi badi honi chahiye<br> … lambi nahin" ~ Anand</p> <br>
     <p>"Basanti inn kutto k saamne mat nachna" ~ Sholay</p>
@@ -39,6 +65,27 @@
     <p>"Picture abhi baki hai mere dost" ~ Om Shanti Om</p>
     </marquee>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }</script>
  
 </body>
 </html>

@@ -1,10 +1,10 @@
 const quizData = [
     
     {
-        question: "The one Doremon always tried to date",
-        a: "Dorami",
-        b: "Michan",
-        c: "Shizuka",
+        question: "What kind of dog is Scooby-Doo?",
+        a: "Newfoundland",
+        b: "Great Dane",
+        c: "Labrador Retriever",
         d: "none of the above",
         correct: "b",
     },
