@@ -17,6 +17,7 @@
              top: 750px;
              right: 20px;
              bottom:  5px;
+             color: darkmagenta;
             
             width: 450px;
             height: 400px;
@@ -33,6 +34,7 @@
       
       font-family: Acme;
       font-size: xx-large;
+      color: #000000;
       
   }
      .box {
@@ -60,6 +62,59 @@
   background-color: rgb(27, 212, 110);
   border-radius: 50%;
 }
+
+
+
+
+* {
+         margin: 0;
+         padding: 0;
+         color: white;
+       }
+       body{
+         background-color: #000000;
+       }
+     
+    
+       .rain{
+         background-image: linear-gradient(to bottom, #030420, #000000 70%);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         
+         overflow: hidden;
+       }
+    
+    
+    
+       hr {
+         width: 50px;
+         border-color: transparent;
+         border-right-color: rgba(255, 255, 255, 0.7);
+         border-right-width: 50px;
+         position: absolute;
+         bottom: 100%;
+         transform-origin: 100% 50%;
+         animation-name: rain;
+         animation-duration: 3s;
+         animation-timing-function: linear;
+         animation-iteration-count: infinite;
+       }
+    
+       @keyframes rain {
+         from {
+           transform: rotate(105deg) translateX(0);
+         } 
+         to {
+           transform: rotate(105deg) translateX(calc(100vh + 20px));
+         }
+       }
+    
+       .pics{
+         margin-left: 80px;
+       }
+    
+
 
     
 
@@ -91,6 +146,9 @@
 
 
 
+
+       
+
     <div class="box">
     <marquee direction="up" width="700" height="450"   behavior="scroll" loop="" scrollamount="12" >
     <p class="dialogue">"Babumushoi, zindagi badi honi chahiye<br> … lambi nahin" ~ Anand</p> <br>
@@ -106,7 +164,7 @@
         </div>
 
         <div class="vid">
-            <video src="bolly5.mp4" width="1100" height="450" autoplay loop ></video>
+            <video src="bolly5.mp4" width="1100" height="450" autoplay muted controls ></video>
         </div>
 
         <div class="whole">
@@ -115,7 +173,7 @@
           <hr>
           </div>
           <div class="video" >
-          <video src="pictures/Top 25 Bollywood Dialogues Ever __ Best Bollywood Punch Lines __ Bollywood Iconic Dialogue Ever.mp4" autoplay  alt="jaan" width="900" controls loop poster="pictures/Top 25 Bollywood Dialogues Ever __ Best Bollywood Punch Lines __ Bollywood Iconic Dialogue Ever.mp4"></video>
+          <video src="dia.mp4" autoplay  alt="jaan" width="900" controls loop muted></video>
           <p class="Dil"> Bollywood has been a tremendous part of our childhood with many soothing memories attached to it.
               From "Pyaar Dosti hai" to "Kya pta kal ho na ho".From "Mai apni faviorate hu!" to "Kon hain jisne pooh ko mudke nhi dekha"
               We lived the moments with the characters,feeling them.Enjoyinng them. No matter how much we try the desire in our hearts to 
@@ -126,12 +184,16 @@
       
          
           </div>
+          <br>
+          <br>
           <div class="b">
-              
-              <img src="pictures/903.jpg"width="450">
-              <img src="pictures/90 2.jpg"width="450">
-              <img src="pictures/904.jpg  " width="450">
+              <div class="pics">
+              <img src="903.jpg" width="450" height="337">
+              <img src="90 2.jpg" width="450" height="337">
+              <img src="904.jpg" width="450" height="337">
+            </div>
               <br> <br>
+            
           
           <p>Starting off in the 40s with a bulky mustached Raj kapoor to  John abraham now, bollywood has had quite a makeover. With Dilip Kumar,Rajesh khana,Dev Anand  all wowed the audience with their performance.
               After Khanna's guru kurtas and fluffy hair top, Amitabh Bachchan brought the angry young man into the picture in the 70s and 80s with Zanjeer, Deewar and Agneepath, also bringing to the fore, bell bottoms and sideburns. The 90s was the time of the lover boys Shah Rukh Khan, Aamir Khan and Salman Khan dancing in exotic foreign locales.The 90s has been a golden era for the Indian cinemas. Block buster movies influence the way people dress, their thoughts as well as their minds. Movie posters on the streets and songs so widely resung. Movies like Hum Apke hai Kon, Dil Wale Dulhaniya le jayenge, Bazigar, Don etc,  
@@ -139,8 +201,8 @@
               </p>
               
           </div>
-          <div>
-            <iframe  width="560" height="315" src="https://www.youtube.com/embed/I_muWnHBRW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="srkvid">
+            <video src="srk.mp4" width="1100" height="450" controls loop autoplay muted ></video>
               
           </div>
           
@@ -161,10 +223,15 @@
             </div>
           
       
-            <video src="bolly5.mp4" width="1100" height="450" controls loop ></video>
+            
         </div>
 
 
+        <div class="rain">
+
+        </div>
+        
+        
 
 
 
@@ -175,7 +242,7 @@
 
 
 
-
+<script src="bolly5.js"></script>
 <script>function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {

@@ -1,7 +1,4 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
+
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -105,6 +102,9 @@
     text-align: left;
   }
 }
-body{
-    background-color: #555;
+  
+.srkvid{
+  margin-left: 200px;
 }
+
+
