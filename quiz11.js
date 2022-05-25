@@ -1,4 +1,4 @@
-const quizData = [
+ b bconst quizData = [
     {
         question: "What was the name of spongebob's squirrel friend?",
         a: "Patrick",
@@ -31,7 +31,7 @@ const quizData = [
         c: "Naneko",
         d: "Ichan",
         correct: "c",
-    },
+    }, 
 
     {
         question: "Name the green dragon of the two conjoined twin dragons from dragon tales",
