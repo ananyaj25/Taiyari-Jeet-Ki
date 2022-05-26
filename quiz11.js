@@ -1,4 +1,4 @@
- b bconst quizData = [
+    const quizData = [
     {
         question: "What was the name of spongebob's squirrel friend?",
         a: "Patrick",
@@ -24,7 +24,6 @@
         correct: "c",
     },
 
-<<<<<<< HEAD
     {
         question: "what's the name of Shinchan's favorite didi?",
         a: "Mitsi",
@@ -34,9 +33,6 @@
         correct: "c",
     }, 
 
-=======
-   
->>>>>>> 973fb5ddd90f507500ee8c809c0ff35dd2df340b
     {
         question: "Name the green dragon of the two conjoined twin dragons from dragon tales",
         a: "ord",

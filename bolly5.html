@@ -8,24 +8,48 @@
     <title>Bollywood 3</title>
     <link rel="stylesheet" href="bolly5.css">
     <style> 
+     
+     
+
+    *{
+      padding: 0;
+      box-sizing: border-box;
+      margin: 0;
+    
+    }
+
+    .video{
+              margin-left: 30px;
+    }
+
+
+    body{
+      background-color: black;
+    }
        .filmy{
-            background-color: rgb(237, 171, 17);
+            background-color: rgb(77, 211, 164);
+            padding: 15px;
+            text-align: center;
+            font-size: 33px;
+            color: white;
         }
         
     .Dil{
             position: absolute;
-             top: 750px;
+             top: 815px;
              right: 20px;
              bottom:  5px;
             
-            width: 450px;
-            height: 400px;
-            border: 10px double rgb(255, 0, 166);
+            width: 430px;
+            height: 480px;
+            border: 10px double rgb(62, 184, 95);
             padding: 20px;
              margin: 10px;
              background-color: antiquewhite;
              font-family:Dancing Script;
              font-size: 23px;
+             color: darkmagenta;
+             font-weight: 500;
         }
   .dialogue{
       padding: 150px;
@@ -61,6 +85,54 @@
   border-radius: 50%;
 }
 
+.rain {
+     background-image: linear-gradient(to bottom, #030420, #000000 70%);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100vw;
+     height: 100vh;
+     overflow: hidden;
+   }
+
+
+
+   hr {
+     width: 50px;
+     border-color: transparent;
+     border-right-color: rgba(255, 255, 255, 0.7);
+     border-right-width: 50px;
+     position: absolute;
+    top: 1900px;
+     animation-name: rain;
+     animation-duration: 1s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+   }
+
+   @keyframes rain {
+     from {
+       transform: rotate(105deg) translateX(0);
+     } 
+     to {
+       transform: rotate(105deg) translateX(calc(100vh + 20px));
+     }
+   }
+
+   .text1{
+     color: white;
+     font-size: x-large;
+     font-family: cursive;  
+     
+     width: 96%;
+     margin-left: 20px;
+    }
+
+    .b{
+      margin-left: 60px;
+      margin-top: 10px;
+    }
+
     
 
     </style>
@@ -81,8 +153,8 @@
           <div class="dropdown-content">
             <a href="/pg1.html">ToonsWorld</a>
             <a href="/cassett.html">SangeetSagar</a>
-            <a href="/bolly3.html">FilmyDuniya</a>
-            <a href="#">DoorDarshan</a>
+            <a href="/bolly5.html">FilmyDuniya</a>
+            <a href="/tv.html">DoorDarshan</a>
           </div>
         </div> 
         <a href="#about">About</a>
@@ -107,7 +179,7 @@
         </div>
 
         <div class="vid">
-            <video src="bolly5.mp4" width="1100" height="450" autoplay loop ></video>
+            <video src="bolly5.mp4" width="1100" height="450" autoplay controls muted ></video>
         </div>
 
         <div class="whole">
@@ -116,7 +188,7 @@
           <hr>
           </div>
           <div class="video" >
-          <video src="pictures/Top 25 Bollywood Dialogues Ever __ Best Bollywood Punch Lines __ Bollywood Iconic Dialogue Ever.mp4" autoplay  alt="jaan" width="900" controls loop poster="pictures/Top 25 Bollywood Dialogues Ever __ Best Bollywood Punch Lines __ Bollywood Iconic Dialogue Ever.mp4"></video>
+          <video src="dia.mp4" autoplay  alt="jaan" width="900" controls muted autoplay loop ></video>
           <p class="Dil"> Bollywood has been a tremendous part of our childhood with many soothing memories attached to it.
               From "Pyaar Dosti hai" to "Kya pta kal ho na ho".From "Mai apni faviorate hu!" to "Kon hain jisne pooh ko mudke nhi dekha"
               We lived the moments with the characters,feeling them.Enjoyinng them. No matter how much we try the desire in our hearts to 
@@ -129,24 +201,25 @@
           </div>
           <div class="b">
               
-              <img src="pictures/903.jpg"width="450">
-              <img src="pictures/90 2.jpg"width="450">
-              <img src="pictures/904.jpg  " width="450">
+              <img src="903.jpg"width="450" height="400">
+              <img src="90 2.jpg"width="450" height="400">
+              <img src="904.jpg  " width="450" height="400">
+            </div>
               <br> <br>
           
-          <p>Starting off in the 40s with a bulky mustached Raj kapoor to  John abraham now, bollywood has had quite a makeover. With Dilip Kumar,Rajesh khana,Dev Anand  all wowed the audience with their performance.
-              After Khanna’s guru kurtas and fluffy hair top, Amitabh Bachchan brought the angry young man into the picture in the 70s and 80s with Zanjeer, Deewar and Agneepath, also bringing to the fore, bell bottoms and sideburns. The 90s was the time of the lover boys Shah Rukh Khan, Aamir Khan and Salman Khan dancing in exotic foreign locales.The 90s has been a golden era for the Indian cinemas. Block buster movies influence the way people dress, their thoughts as well as their minds. Movie posters on the streets and songs so widely resung. Movies like Hum Apke hai Kon, Dil Wale Dulhaniya le jayenge, Bazigar, Don etc,  
+          <p class="text1">Starting off in the 40s with a bulky mustached Raj kapoor to  John abraham now, bollywood has had quite a makeover. With Dilip Kumar,Rajesh khana,Dev Anand  all wowed the audience with their performance.
+              After Khanna's guru kurtas and fluffy hair top, Amitabh Bachchan brought the angry young man into the picture in the 70s and 80s with Zanjeer, Deewar and Agneepath, also bringing to the fore, bell bottoms and sideburns. The 90s was the time of the lover boys Shah Rukh Khan, Aamir Khan and Salman Khan dancing in exotic foreign locales.The 90s has been a golden era for the Indian cinemas. Block buster movies influence the way people dress, their thoughts as well as their minds. Movie posters on the streets and songs so widely resung. Movies like Hum Apke hai Kon, Dil Wale Dulhaniya le jayenge, Bazigar, Don etc,  
               
               </p>
               
-          </div>
-          <div>
-            <iframe  width="560" height="315" src="https://www.youtube.com/embed/I_muWnHBRW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               
+          
+          <div class="srkvid">
+            <video src="srk.mp4" width="1100" height="450" controls loop autoplay muted></video>
           </div>
           
          
-          <p> Shahruk khan. A name in the heart of the millions of bollywood fans. 
+          <p class="text1"> Shahruk khan. A name in the heart of the millions of bollywood fans. 
             The man who introduced a new phase of love in the indian cinema. His “bahee failana” became an iconic romantic statement. 
             He introduced the audience to the purity of love.The true feeling of wanting someone. The true feeling of being in love “Kehte hain agar kisi
              cheez ko dil se chaho … to poori kainath use tumse milane ki koshish mein lag jaati hai” We are all aware of the iconic “udti hui saree in 
@@ -156,12 +229,191 @@
             tum mujhe palat kar nahi dekhti. Keh do ki jab main tumhe choota hoon, tumhe kuch nahi hota. Keh do ki is waqt tum meri baahon 
             mein nahi aana chahti. Ek baar meri aankhon mein dekho aur aakhri baar keh do ki tum mujhse pyar nahi karti…”
           </p>
+          <br>
+
+
+          <div class="movies">
+
+            <section>
+              <h1>Scroll through the <span> BEST !!</span>&#8595;</h1>
+            </section>
+
+
+            <section>
+              <div class="container reveal">
+                <h2>WENTERTAINMENT!</h2>
+                <div class="text-container">
+                  <div class="text-box">
+                    <h3>KAL HO NA HO</h3>
+                    <p>
+                      <img src="kal.png" alt=""width="300px" height="300px"">
+                    </p>
+                  </div>
+                  <div class="text-box">
+                    <h3>3 IDIOTS</h3>
+                    <p>
+                      <img src="idi.jpg" alt="" width="300px" height="300px">
+                    </p>
+                  </div>
+                  <div class="text-box">
+                    <h3>JAB WE MET</h3>
+                    <p>
+                      <img src="kareena.webp" alt="" width="300px" height="300px">
+                    </p>
+                  </div>
+                  
+                </div>
+              </div>
+            </section>
+            
+            <section>
+              <div class="container reveal">
+                <h2>COMEDY</h2>
+                <div class="text-container">
+                  <div class="text-box">
+                    <h3>PHIR HERA PHERI</h3>
+                    <p>
+                      <img src="phir.webp" alt="" width="300px" height="300px">
+                    </p>
+                  </div>
+                  <div class="text-box">
+                    <h3>DE DANA DAN</h3>
+                    <p>
+                     <img src="de.jpg" alt="" width="300px" height="300px">
+                    </p>
+                  </div>
+                  <div class="text-box">
+                    <h3>DHAMAAL</h3>
+                    <p>
+                     <img src="smartr.jpg" alt="" width="300px" height="300px">
+                    </p>
+                  </div>
+                  
+                </div>
+              </div>
+            </section>
+            
+            <section>
+              <div class="container reveal">
+                <h2>ROMANTIC</h2>
+                <div class="text-container">
+                  
+                  <div class="text-box">
+                    <h3>OM SHANTI OM</h3>
+                    <p>
+                     <img src="om.jpg" alt="" width="300px" height="300px">
+                    </p>
+                  </div>
+                  <div class="text-box">
+                    <h3>YJHD</h3>
+                    <p>
+                      <img src="yjhd.webp" alt="" width="300px" height="300px">
+                    </p>
+                  </div>
+                  <div class="text-box">
+                      <h3>DIL SE</h3>
+                      <p>
+                        <img src="dilse.jpg" alt="" width="300px" height="300px">
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </section>
+      
+            <section>
+              <div class="container reveal">
+                <h2>THRILLERS</h2>
+                <div class="text-container">
+                  <div class="text-box">
+                    <h3>MR INDIA</h3>
+                    <p>
+                      <img src="mogi.webp" alt="" width="300px" height="300px">
+                    </p>
+                  </div>
+                  <div class="text-box">
+                    <h3>SHOLAY</h3>
+                    <p>
+                      <img src="sholay.png" alt="" width="300px" height="300px">
+                    </p>
+                  </div>
+                  <div class="text-box">
+                    <h3>DON</h3>
+                    <p>
+                      <img src="don.jpg" alt="" width="300px" height="300px">
+                    </p>
+                  
+                </div>
+              </div>
+            </section>
+          </div>
           
           
       
-            <video src="bolly5.mp4" width="1100" height="450" controls loop ></video>
-        </div>
+        
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="quizzes">
+
+          <h2> BOLLY BUZZ !!</h2>
+     
+         <div class="quiz"> 
+         <a href="/quiz21.html" target="_blank">QUIZ 1</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+         <a href="/quiz22.html" target="_blank">QUIZ 2</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+         <a href="/quiz23.html" target="_blank">QUIZ 3</a>
+         </div>
+     
+         </div>
+
+         <div class="movies">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         </div>
 
 
 
@@ -182,6 +434,26 @@
       x.className = "topnav";
     }
   }</script>
+
+
+<script type="text/javascript">
+
+  let hrElement;
+  let counter = 100;
+  for (let i = 0; i < counter; i++) {
+    hrElement = document.createElement("HR");
+    
+      hrElement.style.left = Math.floor(Math.random() * window.innerWidth) + "px";
+      hrElement.style.animationDuration = 0.2 + Math.random() * 0.3 + "s";
+      hrElement.style.animationDelay = Math.random() * 5 + "s";
+   
+    document.body.appendChild(hrElement);
+  }
+
+ 
+
+</script>
+<script src="bolly5.js"></script>
  
 </body>
 </html>
