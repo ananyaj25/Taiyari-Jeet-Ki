@@ -15,14 +15,7 @@
         d: "Avi",
         correct: "b",
     },
-    {
-        question: "what's the name of Shinchan's favorite didi?",
-        a: "Mitsi",
-        b: "Yoshinaga",
-        c: "Naneko",
-        d: "Ichan",
-        correct: "c",
-    },
+    
 
     {
         question: "what's the name of Shinchan's favorite didi?",

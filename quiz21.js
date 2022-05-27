@@ -30,7 +30,7 @@ const quizData = [
     {
         question: "Tell the one word that fills all three blanks —-------pe —--- milti rahi hai lekin insaaf nahi milta, my Lord. Milte hai to sirf —---- ",
         a: "Nirasha",
-        b: "Tsreekh",
+        b: "Tareekh",
         c: "Gulami",
         d: "Khushi",
         correct: "b",
